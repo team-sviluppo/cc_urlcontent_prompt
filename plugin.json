@@ -1,0 +1,9 @@
+{
+  "name": "URL content in prompt",
+  "description": "Plugin that allow to insert an URL placeholder in user message to have the URL content in prompt",
+  "author_name": "Team Sviluppo",
+  "author_url": "https://www.teamsviluppo.it/",
+  "plugin_url": "https://github.com/team-sviluppo/cc_urlcontent_prompt",
+  "tags": "plugins, prompt",
+  "version": "1.0.0"
+}
