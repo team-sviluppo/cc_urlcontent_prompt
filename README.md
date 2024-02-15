@@ -10,7 +10,7 @@ After plugin installation you can insert in your prompt a palceholder like this:
 
 The plugin automatically get the content of the url and substitute the placeholder with the URL content.
 
-The plugina utomatically remove from ulr content this HTML tags:
+The plugina automatically remove from URL content this HTML tags:
 
 ["script", "noscript", "link", "style", "head", "footer", "header", "nav"]
 
@@ -21,3 +21,7 @@ On the plugin settings you can set "Remove HTML Tags": this setting strip all ht
 # Example
 
 "Give me the summary of the following text {{https://cheshire-cat-ai.github.io/docs/plugins-registry/publishing-plugin/}}"
+
+# IMPORTANT
+
+This plugin turns the prompt into a very long one. The LLM used must support a long prompt. The cost of using the LLM increases by using this plugin
